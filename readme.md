@@ -18,7 +18,7 @@ A simple Python command-line tool that mimics the behavior of the Unix `wc` (wor
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/command-line-wc-tool.git
+git clone https://github.com/OluwagbeminiyiA/ccwc.git
 cd command-line-wc-tool
 ```
 
