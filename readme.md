@@ -29,7 +29,7 @@ Ensure you have Python installed on your system.
 You can run the script from the command line:
 
 ```bash
-python wc_tool.py FILE [options]
+python ccwc.py FILE [options]
 ```
 
 ### Positional Argument
@@ -48,25 +48,25 @@ python wc_tool.py FILE [options]
 #### Calculate Byte Count
 
 ```bash
-python wc_tool.py example.txt --bytes
+python ccwc.py example.txt --bytes
 ```
 
 #### Calculate Line Count
 
 ```bash
-python wc_tool.py example.txt --lines
+python ccwc.py example.txt --lines
 ```
 
 #### Calculate Word Count
 
 ```bash
-python wc_tool.py example.txt --words
+python ccwc.py example.txt --words
 ```
 
 #### Calculate Character Count
 
 ```bash
-python wc_tool.py example.txt --chars
+python ccwc.py example.txt --chars
 ```
 
 #### Calculate All Counts
@@ -74,7 +74,7 @@ python wc_tool.py example.txt --chars
 If you run the tool without any options, it will calculate and print all counts:
 
 ```bash
-python wc_tool.py example.txt
+python ccwc.py example.txt
 ```
 
 ### Example Output
